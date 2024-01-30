@@ -33,6 +33,9 @@ function handleUpload()
         blobImg.style.borderBottomRightRadius = "20px";
         blobImg.style.borderTopLeftRadius = "20px";
         blobImg.style.borderTopRightRadius = "20px";
+        blobImg.style.width = 'auto';
+        blobImg.style.height = 'auto';
+
         imgURL = imgUrl
         document.body.appendChild(blobImg);
         const secondCol = document.querySelector('.col-md-6:nth-child(2)');
